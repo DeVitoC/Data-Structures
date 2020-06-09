@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542f2e86-879b-4a3f-ab9e-6c9ecc213d6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Sprint2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sprint2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stack/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack.py" afterDir="false" />
     </list>
@@ -102,5 +101,9 @@
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1757" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1280.777/1280.23.1920.1057@1280.23.1920.1057" timestamp="1591634695201" />
+    <state x="1780" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1591657451354">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1780" y="223" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/1280.23.1920.1057@1280.23.1920.1057" timestamp="1591657451354" />
   </component>
 </project>
