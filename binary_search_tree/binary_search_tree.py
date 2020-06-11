@@ -10,8 +10,6 @@ This part of the project comprises two days:
    on the BSTNode class.
 """
 from queue import *
-import sys
-import io
 
 class BSTNode:
     def __init__(self, value):
@@ -96,7 +94,18 @@ class BSTNode:
     # Print the value of every node, starting with the given node,
     # in an iterative depth first traversal
     def dft_print(self, node):
-        pass
+        stack = []
+        printed = []
+        stack.append(node)
+
+        while len(stack) > 0:
+            curren_node = stack.pop()
+
+            if curren_node.right:
+                stack.append(curren_node.right)
+            if curren_node.left:
+                stack.append(curren_node.left)
+            print(curren_node.value)
 
     # Stretch Goals -------------------------
     # Note: Research may be required
@@ -117,5 +126,4 @@ class BSTNode:
 # bst.insert(3)
 # bst.insert(4)
 # bst.insert(2)
-# # sys.stdout = io.StringIO()
-# bst.bft_print(bst)
+# bst.dft_print(bst)
